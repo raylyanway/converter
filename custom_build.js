@@ -1,7 +1,7 @@
 const fs = require("fs");
 
-const fromDir = "./build";
-const toDir = "./docs";
+const fromDir = "build";
+const toDir = "docs";
 
 fs.cp(fromDir, toDir, { recursive: true }, (err) => {
   if (err) {
