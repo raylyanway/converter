@@ -37,7 +37,7 @@ export default function App() {
   // return <div>Hello</div>;
   return (
     // <BrowserRouter>
-    <HashRouter basename="/">
+    <HashRouter>
       <nav>
         <ul>
           <li>
